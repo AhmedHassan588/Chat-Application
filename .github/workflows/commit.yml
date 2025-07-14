@@ -123,7 +123,7 @@ jobs:
         run: |
           git config --global user.name "AhmedHassan588"
           git config --global user.email "syedahmedhassan588@gmail.com"
-          git remote set-url origin https://github.com/touheedhayat/Chat-App-Module2.git
+          git remote set-url origin https://github.com/AhmedHassan588/Chat-Application.git/
           git pull origin main --rebase || echo "No changes to pull"
           echo "Updated on $(date)" >> "$FILE_NAME"
           git add "$FILE_NAME"
